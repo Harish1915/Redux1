@@ -8,8 +8,8 @@ import { profileRedux } from "./redux/gymTrackData/profileData/pstore.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <Provider store={reduxStore}> */}
-    <Provider store={profileRedux}>
+    <Provider store={reduxStore}>
+    {/* <Provider store={profileRedux}> */}
       <App />
     </Provider>
   </StrictMode>
